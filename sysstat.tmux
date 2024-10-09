@@ -11,10 +11,7 @@ placeholders=(
 )
 
 commands=(
-  "#($CURRENT_DIR/scripts/cpu.sh)"
-  "#($CURRENT_DIR/scripts/mem.sh)"
-  "#($CURRENT_DIR/scripts/swap.sh)"
-  "#($CURRENT_DIR/scripts/loadavg.sh)"
+  "#($CURRENT_DIR/scripts/tmux_sysstat)"
 )
 
 do_interpolation() {
