@@ -50,7 +50,7 @@ MemoryInfo getMemoryInfo() {
         if (sscanf(line, "MemTotal: %lld kB", &value) == 1) {
             memInfo.totalMem = value;
         }
-        if (sscanf(line, "MemFree: %lld kB", &value) == 1) {
+        if (sscanf(line, "MemAvailable: %lld kB", &value) == 1) {
             memInfo.freeMem = value;
         }
         // 如果还需要其他内存信息，可以在这里继续添加解析代码
